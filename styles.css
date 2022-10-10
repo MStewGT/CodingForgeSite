@@ -28,13 +28,19 @@ header {
 }
 
 button {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: aquamarine;
-    border: 3px solid whitesmoke;
+    border: 3px solid aquamarine;
+    box-shadow: 0px 1px 2px aqua;
     border-radius: 4px;
     text-align: center;
     color: fuchsia;
     font-size: 16px;
+    font-weight: 500;
     box-shadow: none;
+    cursor: pointer;
 }
 
 .nav {
@@ -42,6 +48,8 @@ button {
     margin: auto;
     width: 50%;
     padding: 10px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(40, 45, 45);
 }
 
@@ -58,17 +66,49 @@ ul.cards {
 
 ul.cards li {
     width: 100%;
-    min-height: 50px;
+    min-height: 100px;
     float: left;
     position: relative;
     font-size: 14px;
     font-weight: 500;
     color: #444;
     line-height: 22px;
-
-    background: #fff;
+    background: indigo;
     border-radius: 5px;
     box-shadow: 0px 1px 2px rgba (44, 62, 80, 0.10);
-    margin: 0 0 10px 0;
-    padding: 14px 100px 14px 14px;
+    margin: auto;
+    padding: 14px 14px 14px 14px;
+}
+
+ul.cards li .card_content .title {
+    margin: auto;
+    padding-bottom: 32px;
+}
+
+ul.cards li .card_content .title > .name {
+    float: left;
+    color: greenyellow;
+}
+
+ul.cards li .card_content .title > a > i {
+    float: right;
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul.cards li .card_content .info {
+    margin: auto;
+}
+
+ul.cards li .card_content .info img {
+    float: left;
+    width: auto;
+    height: 100px;
+    border: 5px solid fuchsia;
+}
+
+ul.cards li .card_content .info p {
+    float: right;
+    color: fuchsia;
 }
