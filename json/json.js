@@ -22,5 +22,13 @@ var card_data = [
         "years": "couple?",
         "langs": "Powershell",
         "interests": "Ham Radio, Making Buttons"
+    },
+    {
+        "name": "Triston Wyatt",
+        "github": "https://github.com/tristonwyatt",
+        "pic": "pics/buzzy.jpg",
+        "years": "Yes",
+        "langs": "English",
+        "interests": "Space"
     }
 ]
