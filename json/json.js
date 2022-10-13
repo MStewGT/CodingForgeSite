@@ -8,11 +8,11 @@ var card_data = [
         "interests": "Homelab, Drones, Gaming, and Music"
     },
     {
-        "name": "test",
-        "github": "https://github.com/test",
-        "pic": "pics/Elijah_Wood.jpg",
-        "years": "42",
-        "langs": "test",
-        "interests": "stuff"
+        "name": "Seth Jackson",
+        "github": "https://github.com/seth-jack",
+        "pic": "pics/burt-reynolds-turtleneck (1).png",
+        "years": "1",
+        "langs": "C#, Powershell",
+        "interests": "Long walks on the beach"
     }
 ]
