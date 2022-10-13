@@ -2,8 +2,8 @@
 const githubIcon = '<i class="fa-brands fa fa-github"></i>'
 
 // Function to retrieve content from JSON files and create cards with addCard()
-function main() {
-
+function getJSON() {
+    // Get data from local JSON file
 }
 
 // Adds card to list based on JSON

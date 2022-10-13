@@ -85,6 +85,7 @@ ul.cards li {
 ul.cards li div.card_content .title {
     margin: auto;
     padding-bottom: 32px;
+    white-space: nowrap;
 }
 
 ul.cards li div.card_content .title .name {
