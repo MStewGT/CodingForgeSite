@@ -14,5 +14,13 @@ var card_data = [
         "years": "1",
         "langs": "C#, Powershell",
         "interests": "Long walks on the beach"
+    },
+    {
+        "name": "Aaron Rouse",
+        "github": "https://github.com/lz4364",
+        "pic": "pics/lz4364.jpg",
+        "years": "couple?",
+        "langs": "Powershell",
+        "interests": "Ham Radio, Making Buttons"
     }
 ]
