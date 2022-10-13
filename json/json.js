@@ -30,5 +30,13 @@ var card_data = [
         "years": "Yes",
         "langs": "English",
         "interests": "Space"
+    },
+    {
+        "name": "Cameron Nichols",
+        "github": "https://github.com/New2Ital",
+        "pic": "pics/Morty.jpg",
+        "years": "NO",
+        "langs": "English/None that r helpful",
+        "interests": "What we are doing"
     }
 ]
