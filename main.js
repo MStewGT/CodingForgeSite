@@ -42,10 +42,21 @@ function addCard(user_info) {
     img.src = user_info.pic;
     var facts = document.createElement('div');
     facts.classList.add('facts');
+
     var yspan = document.createElement('span');
     yspan.innerHTML = pre_years;
     var yp = document.createElement('p');
     yp.innerText = user_info.years;
+
+    var lspan = document.createElement('span');
+    lspan.innerHTML = pre_langs;
+    var lp = document.createElement('p');
+    lp.innerText = user_info.langs;
+
+    var ispan = document.createElement('span');
+    ispan.innerHTML = pre_ints;
+    var ip = document.createElement('p');
+    ip.innerText = user_info.interests;
 
 
     // Arrange elements
@@ -55,8 +66,12 @@ function addCard(user_info) {
     content.appendChild(info);
     yspan.appendChild(yp);
     facts.appendChild(yspan);
+    lspan.appendChild(lp);
+    facts.appendChild(lspan);
+    ispan.appendChild(ip);
+    facts.appendChild(ispan);
     info.appendChild(img);
-    info.appendChild(facts)
+    info.appendChild(facts);
     card.appendChild(content);
 
     list.appendChild(card);
